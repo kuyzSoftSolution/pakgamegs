@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.frame-container {
+  position: relative;
+}
+
+iframe {
+  width: calc(100% - 200px); /* Adjust based on the width of the floating frames */
+  height: 100vh;
+  border: none;
+  float: right;
+}
+
+.floating-frame {
+  position: fixed;
+  top: 20px;
+  width: 180px; /* Adjust as needed */
+  height: calc(100vh - 40px); /* Adjust to match iframe height */
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.left-frame {
+  left: 40px;
+}
+
+.right-frame {
+  right: 20px;
+}

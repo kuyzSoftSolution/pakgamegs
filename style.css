@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.iframe-container {
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
+}
+
+
+iframe {
+  border: none;
+  height: 100vh;
+}
+
+.floating-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px; /* Adjust as needed */
+}
+
+.floating-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.left-frame {
+  left: 20px;
+}
+
+.right-frame {
+  right: 20px;
+}
